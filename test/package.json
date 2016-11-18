@@ -1,0 +1,41 @@
+{
+  "name": "bgeo",
+  "version": "1.0.0",
+  "description": "Get geo positions on browser",
+  "main": "lib",
+  "scripts": {
+    "test": "./ci/test.js",
+    "prepublish": "./ci/build.js"
+  },
+  "repository": "b-labo/bgeo",
+  "keywords": [],
+  "author": {
+    "name": "Taka Okunishi",
+    "email": "okunishinish@gmail.com",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b-labo/bgeo/issues"
+  },
+  "homepage": "https://github.com/b-labo/bgeo#readme",
+  "dependencies": {
+    "bwindow": "^1.0.7",
+    "co": "^4.6.0"
+  },
+  "devDependencies": {
+    "amocha": "^1.0.16",
+    "ape-formatting": "^1.0.2",
+    "ape-releasing": "^4.0.4",
+    "ape-reporting": "^3.0.2",
+    "ape-tasking": "^4.0.9",
+    "ape-tmpl": "^5.0.20",
+    "ape-updating": "^4.0.5",
+    "coz": "^6.0.20",
+    "injectmock": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  }
+}
