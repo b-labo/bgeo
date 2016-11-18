@@ -1,7 +1,8 @@
 {
   "name": "bgeo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get geo positions on browser",
+  "browser": "shim/browser",
   "main": "lib",
   "scripts": {
     "test": "node ./ci/test.js",
